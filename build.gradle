@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.xxxx'
+version '1.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.netty:netty-all:4.1.10.Final'
+}
+
+task.withType(JavaCompaile){
+    options.encoding = "UTF-8"
+}
