@@ -16,6 +16,6 @@ dependencies {
     implementation 'io.netty:netty-all:4.1.10.Final'
 }
 
-task.withType(JavaCompaile){
-    options.encoding = "UTF-8"
-}
+//task.withType(JavaCompaile){
+//    options.encoding = "UTF-8"
+//}
