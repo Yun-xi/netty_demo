@@ -7,6 +7,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
+ * 服务端和客户端通信
  * @author xieyaqi
  * @mail 987159036@qq.com
  * @date 2019-05-10 14:48

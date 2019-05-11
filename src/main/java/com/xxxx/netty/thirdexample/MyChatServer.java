@@ -1,6 +1,5 @@
 package com.xxxx.netty.thirdexample;
 
-import com.xxxx.netty.secondexample.MyServerInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
@@ -8,6 +7,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
+ * 多客户端和服务端相互之间的通信
  * @author xieyaqi
  * @mail 987159036@qq.com
  * @date 2019-05-10 16:03
