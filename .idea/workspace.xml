@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c1481e-1136-41eb-8a5f-17c59541b886" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/TextWebSocketFrameHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/WebSocketChannelInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/fourthexample/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/fourthexample/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/fourthexample/MyServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/firstexample/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/firstexample/TestServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/secondexample/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/secondexample/MyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/secondexample/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/secondexample/MyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample/MyChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample/MyChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample/MyChatClientInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample/MyChatClientInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample/MyChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample/MyChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample/MyChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample/MyChatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/firstexample/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/firstexample/TestServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/secondexample/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/secondexample/MyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatClientInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -67,8 +43,10 @@
     <session id="-504609242">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -80,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="275" />
+          <entry key="HTML" value="812" />
           <entry key="JAVA" value="1298" />
         </counts>
       </usages-collector>
@@ -88,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/MyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+            <state relative-caret-position="410">
+              <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/webapp/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="183">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -116,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/WebSocketChannelInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="67">
               <caret line="10" column="40" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/TextWebSocketFrameHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="251">
+              <caret line="17" column="72" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/Channel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="1334">
               <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
             </state>
           </provider>
@@ -149,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/ChannelId.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="713">
               <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
             </state>
           </provider>
@@ -158,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/secondexample/MyServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="345">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -170,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/firstexample/TestHttpServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
+            <state relative-caret-position="851">
               <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -182,7 +160,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
+            <state relative-caret-position="1012">
               <caret line="49" column="39" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -194,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
+            <state relative-caret-position="2507">
               <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
               <folding>
                 <element signature="e#4300#4301#0" expanded="true" />
@@ -557,6 +535,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -677,15 +657,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557590440586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557662767973" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/classes/com/xxxx/netty/thirdexample" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -832,18 +810,19 @@
       <workItem from="1557457306421" duration="8000" />
       <workItem from="1557462706818" duration="18000" />
       <workItem from="1557462850304" duration="10371000" />
-      <workItem from="1557536533992" duration="10018000" />
+      <workItem from="1557536533992" duration="10213000" />
+      <workItem from="1557620343919" duration="4904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37811000" />
+    <option name="totallyTimeSpent" value="42910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -859,14 +838,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34301677" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34225196" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="JRebel Setup Guide" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -878,6 +856,7 @@
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.361678" />
@@ -1072,9 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,9 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="27" column="5" selection-start-line="20" selection-start-column="7" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,9 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="18" column="65" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1135,9 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1145,9 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,10 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#2095#2096#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,9 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,10 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="1529" column="23" selection-start-line="1529" selection-start-column="23" selection-end-line="1529" selection-end-column="23" />
-          <folding>
-            <element signature="e#55662#55663#0" expanded="true" />
-            <element signature="e#55707#55708#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,9 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="28" column="9" selection-start-line="16" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1232,9 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1242,9 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1262,9 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1282,38 +1223,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="113" column="52" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="52" />
-          <folding>
-            <element signature="e#5194#5195#0" expanded="true" />
-            <element signature="e#5239#5240#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
-          <folding>
-            <element signature="e#4300#4301#0" expanded="true" />
-            <element signature="e#4348#4349#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1334">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/firstexample/TestHttpServerHandler.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/ChannelId.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="64" />
+        <state relative-caret-position="713">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/secondexample/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/secondexample/MyServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/firstexample/TestHttpServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="851">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1322,7 +1262,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
+        <state relative-caret-position="1012">
           <caret line="49" column="39" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1330,24 +1270,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/Channel.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        <state relative-caret-position="2507">
+          <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
+          <folding>
+            <element signature="e#4300#4301#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/ChannelId.java">
+    <entry file="file://$PROJECT_DIR$/src/webapp/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="183">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/TextWebSocketFrameHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="251">
+          <caret line="17" column="72" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1356,7 +1304,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/WebSocketChannelInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="67">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1366,21 +1314,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/MyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+        <state relative-caret-position="410">
+          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
