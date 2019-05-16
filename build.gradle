@@ -18,6 +18,7 @@ dependencies {
     implementation 'com.google.protobuf:protobuf-java-util:3.3.1'
 }
 
-//task.withType(JavaCompaile){
-//    options.encoding = "UTF-8"
-//}
+//指定编译的编码
+tasks.withType(JavaCompile){
+    options.encoding = "UTF-8"
+}
