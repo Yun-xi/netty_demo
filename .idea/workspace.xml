@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c1481e-1136-41eb-8a5f-17c59541b886" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/protobuf/Student.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/Person.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,40 +70,199 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/protobuf/Person.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/MyDataInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="496" column="67" selection-start-line="496" selection-start-column="67" selection-end-line="496" selection-end-column="67" />
+            <state relative-caret-position="180">
+              <caret line="801" column="64" selection-start-line="801" selection-start-column="64" selection-end-line="801" selection-end-column="64" />
               <folding>
                 <element signature="e#0#29158#0" expanded="true" />
+                <element signature="e#26502#26503#0" expanded="true" />
+                <element signature="e#26539#26540#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.xxxx.netty.sixthexample.MyDataInfo.Person">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.xxxx.netty.sixthexample.MyDataInfo.Person</OriginalElement>
+              <nodes>
+                <node x="233.5" y="83.0">com.google.protobuf.MessageLite</node>
+                <node x="245.86538461538464" y="249.0">com.google.protobuf.AbstractMessage</node>
+                <node x="0.0" y="166.0">com.xxxx.netty.sixthexample.MyDataInfo.PersonOrBuilder</node>
+                <node x="245.11538461538464" y="415.0">com.xxxx.netty.sixthexample.MyDataInfo.Person</node>
+                <node x="190.50000000000006" y="166.0">com.google.protobuf.Message</node>
+                <node x="320.86538461538464" y="332.0">com.google.protobuf.GeneratedMessageV3</node>
+                <node x="313.25" y="166.0">com.google.protobuf.AbstractMessageLite</node>
+                <node x="197.5" y="0.0">com.google.protobuf.MessageLiteOrBuilder</node>
+                <node x="394.25" y="83.0">com.google.protobuf.AbstractMessageLite.Builder</node>
+                <node x="39.50000000000003" y="83.0">com.google.protobuf.MessageOrBuilder</node>
+                <node x="431.86538461538464" y="249.0">java.io.Serializable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.google.protobuf.AbstractMessage" target="com.google.protobuf.AbstractMessageLite">
+                  <point x="41.5" y="-16.5" />
+                  <point x="370.36538461538464" y="224.0" />
+                  <point x="412.25" y="224.0" />
+                  <point x="0.0" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.AbstractMessageLite.Builder" target="com.google.protobuf.AbstractMessageLite">
+                  <point x="25.5" y="16.5" />
+                  <point x="470.75" y="141.0" />
+                  <point x="478.25" y="141.0" />
+                  <point x="66.0" y="-16.5" />
+                </edge>
+                <edge source="com.google.protobuf.GeneratedMessageV3" target="com.google.protobuf.AbstractMessage">
+                  <point x="-47.5" y="-16.5" />
+                  <point x="368.36538461538464" y="307.0" />
+                  <point x="328.86538461538464" y="307.0" />
+                  <point x="0.0" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.Message" target="com.google.protobuf.MessageOrBuilder">
+                  <point x="-25.50000000000003" y="-16.5" />
+                  <point x="216.0" y="141.0" />
+                  <point x="170.00000000000003" y="141.0" />
+                  <point x="43.5" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.MessageOrBuilder" target="com.google.protobuf.MessageLiteOrBuilder">
+                  <point x="0.0" y="-16.5" />
+                  <point x="126.50000000000003" y="58.0" />
+                  <point x="231.83333333333331" y="58.0" />
+                  <point x="-68.66666666666669" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.AbstractMessageLite.Builder" target="com.google.protobuf.MessageLiteOrBuilder">
+                  <point x="0.0" y="-16.5" />
+                  <point x="445.25" y="58.0" />
+                  <point x="369.1666666666667" y="58.0" />
+                  <point x="68.66666666666669" y="16.5" />
+                </edge>
+                <edge source="com.xxxx.netty.sixthexample.MyDataInfo.Person" target="com.google.protobuf.GeneratedMessageV3">
+                  <point x="23.5" y="-16.5" />
+                  <point x="315.61538461538464" y="390.0" />
+                  <point x="415.86538461538464" y="390.0" />
+                  <point x="0.0" y="16.5" />
+                </edge>
+                <edge source="com.xxxx.netty.sixthexample.MyDataInfo.PersonOrBuilder" target="com.google.protobuf.MessageOrBuilder">
+                  <point x="0.0" y="-16.5" />
+                  <point x="-43.5" y="16.5" />
+                </edge>
+                <edge source="com.xxxx.netty.sixthexample.MyDataInfo.Person" target="com.xxxx.netty.sixthexample.MyDataInfo.PersonOrBuilder">
+                  <point x="-23.5" y="-16.5" />
+                  <point x="268.61538461538464" y="390.0" />
+                  <point x="83.00000000000003" y="390.0" />
+                  <point x="0.0" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.MessageLite" target="com.google.protobuf.MessageLiteOrBuilder">
+                  <point x="0.0" y="-16.5" />
+                  <point x="0.0" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.GeneratedMessageV3" target="java.io.Serializable">
+                  <point x="47.5" y="-16.5" />
+                  <point x="463.36538461538464" y="307.0" />
+                  <point x="502.86538461538464" y="307.0" />
+                  <point x="0.0" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.AbstractMessageLite" target="com.google.protobuf.AbstractMessageLite.Builder">
+                  <point x="0.0" y="-16.5" />
+                  <point x="412.25" y="141.0" />
+                  <point x="419.75" y="141.0" />
+                  <point x="-25.5" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.Message" target="com.google.protobuf.MessageLite">
+                  <point x="25.49999999999997" y="-16.5" />
+                  <point x="-33.5" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.AbstractMessageLite" target="com.google.protobuf.MessageLite">
+                  <point x="-66.0" y="-16.5" />
+                  <point x="346.25" y="141.0" />
+                  <point x="334.0" y="141.0" />
+                  <point x="33.5" y="16.5" />
+                </edge>
+                <edge source="com.google.protobuf.AbstractMessage" target="com.google.protobuf.Message">
+                  <point x="-41.5" y="-16.5" />
+                  <point x="287.36538461538464" y="224.0" />
+                  <point x="241.50000000000006" y="224.0" />
+                  <point x="0.0" y="16.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-235.5" y="194.0" />
+              <SelectedNodes>
+                <node>com.xxxx.netty.sixthexample.MyDataInfo.Person</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="138">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/protobuf/ProtobufTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="483">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/handler/codec/protobuf/ProtobufDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+              <folding>
+                <element signature="e#3252#3253#0" expanded="true" />
+                <element signature="e#3289#3290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.3.1/733c81a020b1eaf0c09ee8c2cb8fa166bd8a2f2d/protobuf-java-3.3.1-sources.jar!/com/google/protobuf/MessageLite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fourthexample/MyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -116,67 +272,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
               <caret line="149" column="19" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fifthexample/TextWebSocketFrameHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="17" column="72" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/secondexample/MyServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/firstexample/TestHttpServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/thirdexample/MyChatServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="49" column="39" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2507">
-              <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
-              <folding>
-                <element signature="e#4300#4301#0" expanded="true" />
-                <element signature="e#4348#4349#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -223,7 +318,10 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServerHandler.java" />
       </list>
     </option>
   </component>
@@ -298,6 +396,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xxxx" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="fourthexample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -498,17 +607,18 @@
       <workItem from="1558012794456" duration="2628000" />
       <workItem from="1558017761085" duration="440000" />
       <workItem from="1558018314705" duration="719000" />
-      <workItem from="1558019303129" duration="503000" />
+      <workItem from="1558019303129" duration="1163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54329000" />
+    <option name="totallyTimeSpent" value="54989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -525,7 +635,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.22494432" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34075725" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34075725" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -587,30 +697,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java" />
-    <entry file="jar://$PROJECT_DIR$/../develop/Java/jdk1.8.0_152/src.zip!/java/time/LocalDateTime.java" />
-    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/channel/ChannelInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/secondexample/MyServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/firstexample/TestServerinitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/secondexample/MyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/handler/codec/string/StringDecoder.java" />
     <entry file="jar://$PROJECT_DIR$/../develop/Java/jdk1.8.0_152/src.zip!/java/nio/charset/Charset.java" />
     <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/util/concurrent/GlobalEventExecutor.java" />
@@ -735,13 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fourthexample/MyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -872,20 +951,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/MyDataInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/fourthexample/MyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="496" column="67" selection-start-line="496" selection-start-column="67" selection-end-line="496" selection-end-column="67" />
+        <state relative-caret-position="427">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.3.1/733c81a020b1eaf0c09ee8c2cb8fa166bd8a2f2d/protobuf-java-3.3.1-sources.jar!/com/google/protobuf/MessageLite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.3.1/733c81a020b1eaf0c09ee8c2cb8fa166bd8a2f2d/protobuf-java-3.3.1-sources.jar!/com/google/protobuf/MessageLiteOrBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/d1bd84679a70217b52f86e7f9952dacf8f43de3f/netty-all-4.1.10.Final-sources.jar!/io/netty/handler/codec/protobuf/ProtobufDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
           <folding>
-            <element signature="e#0#29158#0" expanded="true" />
+            <element signature="e#3252#3253#0" expanded="true" />
+            <element signature="e#3289#3290#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.xxxx.netty.sixthexample.MyDataInfo.Person">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.xxxx.netty.sixthexample.MyDataInfo.Person</OriginalElement>
+          <nodes>
+            <node x="233.5" y="83.0">com.google.protobuf.MessageLite</node>
+            <node x="245.86538461538464" y="249.0">com.google.protobuf.AbstractMessage</node>
+            <node x="0.0" y="166.0">com.xxxx.netty.sixthexample.MyDataInfo.PersonOrBuilder</node>
+            <node x="245.11538461538464" y="415.0">com.xxxx.netty.sixthexample.MyDataInfo.Person</node>
+            <node x="190.50000000000006" y="166.0">com.google.protobuf.Message</node>
+            <node x="320.86538461538464" y="332.0">com.google.protobuf.GeneratedMessageV3</node>
+            <node x="313.25" y="166.0">com.google.protobuf.AbstractMessageLite</node>
+            <node x="197.5" y="0.0">com.google.protobuf.MessageLiteOrBuilder</node>
+            <node x="394.25" y="83.0">com.google.protobuf.AbstractMessageLite.Builder</node>
+            <node x="39.50000000000003" y="83.0">com.google.protobuf.MessageOrBuilder</node>
+            <node x="431.86538461538464" y="249.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.google.protobuf.AbstractMessage" target="com.google.protobuf.AbstractMessageLite">
+              <point x="41.5" y="-16.5" />
+              <point x="370.36538461538464" y="224.0" />
+              <point x="412.25" y="224.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.AbstractMessageLite.Builder" target="com.google.protobuf.AbstractMessageLite">
+              <point x="25.5" y="16.5" />
+              <point x="470.75" y="141.0" />
+              <point x="478.25" y="141.0" />
+              <point x="66.0" y="-16.5" />
+            </edge>
+            <edge source="com.google.protobuf.GeneratedMessageV3" target="com.google.protobuf.AbstractMessage">
+              <point x="-47.5" y="-16.5" />
+              <point x="368.36538461538464" y="307.0" />
+              <point x="328.86538461538464" y="307.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.Message" target="com.google.protobuf.MessageOrBuilder">
+              <point x="-25.50000000000003" y="-16.5" />
+              <point x="216.0" y="141.0" />
+              <point x="170.00000000000003" y="141.0" />
+              <point x="43.5" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.MessageOrBuilder" target="com.google.protobuf.MessageLiteOrBuilder">
+              <point x="0.0" y="-16.5" />
+              <point x="126.50000000000003" y="58.0" />
+              <point x="231.83333333333331" y="58.0" />
+              <point x="-68.66666666666669" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.AbstractMessageLite.Builder" target="com.google.protobuf.MessageLiteOrBuilder">
+              <point x="0.0" y="-16.5" />
+              <point x="445.25" y="58.0" />
+              <point x="369.1666666666667" y="58.0" />
+              <point x="68.66666666666669" y="16.5" />
+            </edge>
+            <edge source="com.xxxx.netty.sixthexample.MyDataInfo.Person" target="com.google.protobuf.GeneratedMessageV3">
+              <point x="23.5" y="-16.5" />
+              <point x="315.61538461538464" y="390.0" />
+              <point x="415.86538461538464" y="390.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="com.xxxx.netty.sixthexample.MyDataInfo.PersonOrBuilder" target="com.google.protobuf.MessageOrBuilder">
+              <point x="0.0" y="-16.5" />
+              <point x="-43.5" y="16.5" />
+            </edge>
+            <edge source="com.xxxx.netty.sixthexample.MyDataInfo.Person" target="com.xxxx.netty.sixthexample.MyDataInfo.PersonOrBuilder">
+              <point x="-23.5" y="-16.5" />
+              <point x="268.61538461538464" y="390.0" />
+              <point x="83.00000000000003" y="390.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.MessageLite" target="com.google.protobuf.MessageLiteOrBuilder">
+              <point x="0.0" y="-16.5" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.GeneratedMessageV3" target="java.io.Serializable">
+              <point x="47.5" y="-16.5" />
+              <point x="463.36538461538464" y="307.0" />
+              <point x="502.86538461538464" y="307.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.AbstractMessageLite" target="com.google.protobuf.AbstractMessageLite.Builder">
+              <point x="0.0" y="-16.5" />
+              <point x="412.25" y="141.0" />
+              <point x="419.75" y="141.0" />
+              <point x="-25.5" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.Message" target="com.google.protobuf.MessageLite">
+              <point x="25.49999999999997" y="-16.5" />
+              <point x="-33.5" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.AbstractMessageLite" target="com.google.protobuf.MessageLite">
+              <point x="-66.0" y="-16.5" />
+              <point x="346.25" y="141.0" />
+              <point x="334.0" y="141.0" />
+              <point x="33.5" y="16.5" />
+            </edge>
+            <edge source="com.google.protobuf.AbstractMessage" target="com.google.protobuf.Message">
+              <point x="-41.5" y="-16.5" />
+              <point x="287.36538461538464" y="224.0" />
+              <point x="241.50000000000006" y="224.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-235.5" y="194.0" />
+          <SelectedNodes>
+            <node>com.xxxx.netty.sixthexample.MyDataInfo.Person</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="483">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/MyDataInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="801" column="64" selection-start-line="801" selection-start-column="64" selection-end-line="801" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#29158#0" expanded="true" />
+            <element signature="e#26502#26503#0" expanded="true" />
+            <element signature="e#26539#26540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/netty/sixthexample/TestServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
