@@ -1,0 +1,16 @@
+// 使用proto2版本
+syntax = "proto2";
+
+package com.xxxx.protobuf;
+
+// 文件选项 SPEED会加快文件解析速度
+option optimize_for = SPEED;
+// 包名，会优先使用该包名
+option java_package = "com.xxxx.protobuf";
+option java_outer_classname = "DataInfo";
+
+message Student {
+    required string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}

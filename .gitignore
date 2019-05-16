@@ -1,0 +1,64 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+target/
+/target/
+logs/
+data/
+*.iml
+.DS_Store
+gulp/
+.gradle/
+gradle/
+out/
+gradlew
+gradlew.bat
+build/
+
+# 配置文件
+logback.xml
+*.iml
+workspace.xml
+
+*.class
+
+
+
+# Mobile Tools for Java (J2ME)
+
+.mtj.tmp/
+
+
+# Package Files #
+
+*.jar
+
+*.war
+
+*.ear
+
+
+
+#Gradle temporary files
+
+target/
+
+
+
+#Eclipse files
+
+**/.project
+
+**/.classpath
+
+**/.settings/
+
+
+
+#IntelliJ files
+
+**/*.iml
+
+**/.idea
+
+**/.gradle
+
