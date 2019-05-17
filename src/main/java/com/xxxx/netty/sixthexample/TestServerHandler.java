@@ -7,6 +7,8 @@ public class TestServerHandler extends SimpleChannelInboundHandler<MyDataInfo.Pe
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, MyDataInfo.Person msg) throws Exception {
-
+        System.out.println(msg.getName());
+        System.out.println(msg.getAge());
+        System.out.println(msg.getAddress());
     }
 }
