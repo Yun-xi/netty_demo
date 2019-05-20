@@ -1,4 +1,5 @@
 namespace java thrift.generated
+namespace py py.thrift.generated
 
 #别名
 typedef i16 short
