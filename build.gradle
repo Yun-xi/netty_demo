@@ -2,6 +2,8 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'com.google.protobuf'
+
 group 'com.xxxx'
 version '1.0'
 
@@ -25,4 +27,29 @@ dependencies {
 //指定编译的编码
 tasks.withType(JavaCompile){
     options.encoding = "UTF-8"
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.0it '
+    }
+}
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.2.0"
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.4.0'
+        }
+    }
+    generateProtoTasks {
+        all()*.plugins {
+            grpc {}
+        }
+    }
 }

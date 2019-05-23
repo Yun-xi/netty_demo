@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="900">
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -219,7 +219,14 @@
             </path>
             <path>
               <item name="netty_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="netty_demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,16 +403,15 @@
       <workItem from="1558513662053" duration="596000" />
       <workItem from="1558573617337" duration="1504000" />
       <workItem from="1558581313592" duration="1004000" />
-      <workItem from="1558603807748" duration="911000" />
+      <workItem from="1558603807748" duration="1520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57104000" />
+    <option name="totallyTimeSpent" value="57713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="991" y="16" width="939" height="1031" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55609757" weight="0.32155073" />
       <window_info id="Structure" order="1" sideWeight="0.44390243" side_tool="true" weight="0.1652452" />
@@ -424,7 +430,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.3225084" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.33442265" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.33371693" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3398693" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -439,13 +445,13 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" weight="0.44189766" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.4412771" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55609757" visible="true" weight="0.32155073" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55609757" visible="true" weight="0.32155073" />
       <window_info id="Structure" order="1" sideWeight="0.44390243" side_tool="true" weight="0.1652452" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -461,8 +467,8 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49946696" visible="true" weight="0.3225084" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.33442265" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49946696" weight="0.3225084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.33371693" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3398693" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
@@ -939,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="900">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
         </state>
       </provider>
     </entry>
