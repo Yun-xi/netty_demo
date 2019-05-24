@@ -62,12 +62,12 @@ public  final class MyResponse extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_MyResponse_descriptor;
+    return StudentProto.internal_static_com_xxxx_proto_MyResponse_descriptor;
   }
 
   protected FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_MyResponse_fieldAccessorTable
+    return StudentProto.internal_static_com_xxxx_proto_MyResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             MyResponse.class, Builder.class);
   }
@@ -249,15 +249,15 @@ public  final class MyResponse extends
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.xxxx.proto.MyResponse)
-      com.xxxx.proto.MyResponseOrBuilder {
+      MyResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_MyResponse_descriptor;
+      return StudentProto.internal_static_com_xxxx_proto_MyResponse_descriptor;
     }
 
     protected FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_MyResponse_fieldAccessorTable
+      return StudentProto.internal_static_com_xxxx_proto_MyResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               MyResponse.class, Builder.class);
     }
@@ -286,7 +286,7 @@ public  final class MyResponse extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_MyResponse_descriptor;
+      return StudentProto.internal_static_com_xxxx_proto_MyResponse_descriptor;
     }
 
     public MyResponse getDefaultInstanceForType() {

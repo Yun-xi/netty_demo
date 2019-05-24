@@ -1,10 +1,10 @@
 package com.xxxx.grpc;
 
-import com.xxxx.proto.MyRequest;
-import com.xxxx.proto.MyResponse;
-import com.xxxx.proto.StudentServiceGrpc;
+import com.xxxx.proto.*;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+
+import java.util.Iterator;
 
 /**
  * @author xieyaqi
@@ -21,5 +21,15 @@ public class GrpcClient {
         MyResponse myResponse = blockingStub.getRealNameByUserName(MyRequest.newBuilder().setUsername("zhangsan").build());
 
         System.out.println(myResponse.getRealname());
+
+        System.out.println("----------------------------------");
+
+        Iterator<StudentResponse> iter = blockingStub.getStudentsByAge(StudentRequest.newBuilder().setAge(20).build());
+
+        while (iter.hasNext()) {
+            StudentResponse studentResponse = iter.next();
+
+            System.out.println(studentResponse.getName() + ", " + studentResponse.getAge() + ", " + studentResponse.getCity());
+        }
     }
 }

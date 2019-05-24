@@ -6,8 +6,11 @@ option java_package = "com.xxxx.proto";
 option java_outer_classname = "StudentProto";
 option java_multiple_files = true;
 
+// grpc要求请求和响应必须都是message
 service StudentService {
     rpc GetRealNameByUserName(MyRequest) returns (MyResponse) {}
+
+    rpc GetStudentsByAge(StudentRequest) returns (stream StudentResponse) {}
 }
 
 message MyRequest {
@@ -18,4 +21,13 @@ message MyResponse {
     string realname = 1;
 }
 
+message StudentRequest {
+    int32 age = 1;
+}
+
+message StudentResponse {
+    string name = 1;
+    int32 age = 2;
+    string city = 3;
+}
 
