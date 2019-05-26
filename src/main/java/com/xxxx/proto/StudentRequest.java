@@ -224,7 +224,7 @@ public  final class StudentRequest extends
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.xxxx.proto.StudentRequest)
-      com.xxxx.proto.StudentRequestOrBuilder {
+      StudentRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
       return StudentProto.internal_static_com_xxxx_proto_StudentRequest_descriptor;
