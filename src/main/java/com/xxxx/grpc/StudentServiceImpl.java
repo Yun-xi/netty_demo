@@ -3,6 +3,8 @@ package com.xxxx.grpc;
 import com.xxxx.proto.*;
 import io.grpc.stub.StreamObserver;
 
+import java.util.UUID;
+
 /**
  * @author xieyaqi
  * @mail 987159036@qq.com
@@ -44,5 +46,55 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
                 .build());
 
         responseObserver.onCompleted();
+    }
+
+    @Override
+    public StreamObserver<StudentRequest> getStudentsWrapperByAges(StreamObserver<StudentResponseList> responseObserver) {
+
+        return new StreamObserver<StudentRequest>() {
+            @Override
+            public void onNext(StudentRequest value) {
+                System.out.println("onNext: " + value.getAge());
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                System.out.println(t.getMessage());
+            }
+
+            @Override
+            public void onCompleted() {
+                StudentResponse studentResponse1 =
+                        StudentResponse.newBuilder().setName("张三").setAge(20).setCity("西安").build();
+                StudentResponse studentResponse2 =
+                        StudentResponse.newBuilder().setName("李四").setAge(30).setCity("南京").build();
+                StudentResponseList studentResponseList = StudentResponseList.newBuilder().addStudentResponse(studentResponse1).addStudentResponse(studentResponse2).build();
+
+                responseObserver.onNext(studentResponseList);
+                responseObserver.onCompleted();
+            }
+        };
+    }
+
+    @Override
+    public StreamObserver<StreamRequest> biTalk(StreamObserver<StreamResponse> responseObserver) {
+        return new StreamObserver<StreamRequest>() {
+            @Override
+            public void onNext(StreamRequest value) {
+                System.out.println(value.getRequestInfo());
+
+                responseObserver.onNext(StreamResponse.newBuilder().setResponseInfo(UUID.randomUUID().toString()).build());
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                System.out.println(t.getMessage());
+            }
+
+            @Override
+            public void onCompleted() {
+                responseObserver.onCompleted();
+            }
+        };
     }
 }

@@ -4,18 +4,18 @@
 package com.xxxx.proto;
 
 /**
- * Protobuf type {@code com.xxxx.proto.StudentRequest}
+ * Protobuf type {@code com.xxxx.proto.StreamRequest}
  */
-public  final class StudentRequest extends
+public  final class StreamRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.xxxx.proto.StudentRequest)
-    StudentRequestOrBuilder {
-  // Use StudentRequest.newBuilder() to construct.
-  private StudentRequest(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+    // @@protoc_insertion_point(message_implements:com.xxxx.proto.StreamRequest)
+    StreamRequestOrBuilder {
+  // Use StreamRequest.newBuilder() to construct.
+  private StreamRequest(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
     super(builder);
   }
-  private StudentRequest() {
-    age_ = 0;
+  private StreamRequest() {
+    requestInfo_ = "";
   }
 
   @java.lang.Override
@@ -23,7 +23,7 @@ public  final class StudentRequest extends
   getUnknownFields() {
     return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
   }
-  private StudentRequest(
+  private StreamRequest(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
@@ -43,9 +43,10 @@ public  final class StudentRequest extends
             }
             break;
           }
-          case 8: {
+          case 10: {
+            java.lang.String s = input.readStringRequireUtf8();
 
-            age_ = input.readInt32();
+            requestInfo_ = s;
             break;
           }
         }
@@ -61,23 +62,48 @@ public  final class StudentRequest extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StudentRequest_descriptor;
+    return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StreamRequest_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StudentRequest_fieldAccessorTable
+    return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StreamRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            com.xxxx.proto.StudentRequest.class, com.xxxx.proto.StudentRequest.Builder.class);
+            com.xxxx.proto.StreamRequest.class, com.xxxx.proto.StreamRequest.Builder.class);
   }
 
-  public static final int AGE_FIELD_NUMBER = 1;
-  private int age_;
+  public static final int REQUEST_INFO_FIELD_NUMBER = 1;
+  private volatile java.lang.Object requestInfo_;
   /**
-   * <code>int32 age = 1;</code>
+   * <code>string request_info = 1;</code>
    */
-  public int getAge() {
-    return age_;
+  public java.lang.String getRequestInfo() {
+    java.lang.Object ref = requestInfo_;
+    if (ref instanceof java.lang.String) {
+      return (java.lang.String) ref;
+    } else {
+      com.google.protobuf.ByteString bs = 
+          (com.google.protobuf.ByteString) ref;
+      java.lang.String s = bs.toStringUtf8();
+      requestInfo_ = s;
+      return s;
+    }
+  }
+  /**
+   * <code>string request_info = 1;</code>
+   */
+  public com.google.protobuf.ByteString
+      getRequestInfoBytes() {
+    java.lang.Object ref = requestInfo_;
+    if (ref instanceof java.lang.String) {
+      com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString.copyFromUtf8(
+              (java.lang.String) ref);
+      requestInfo_ = b;
+      return b;
+    } else {
+      return (com.google.protobuf.ByteString) ref;
+    }
   }
 
   private byte memoizedIsInitialized = -1;
@@ -92,8 +118,8 @@ public  final class StudentRequest extends
 
   public void writeTo(com.google.protobuf.CodedOutputStream output)
                       throws java.io.IOException {
-    if (age_ != 0) {
-      output.writeInt32(1, age_);
+    if (!getRequestInfoBytes().isEmpty()) {
+      com.google.protobuf.GeneratedMessageV3.writeString(output, 1, requestInfo_);
     }
   }
 
@@ -102,9 +128,8 @@ public  final class StudentRequest extends
     if (size != -1) return size;
 
     size = 0;
-    if (age_ != 0) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeInt32Size(1, age_);
+    if (!getRequestInfoBytes().isEmpty()) {
+      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, requestInfo_);
     }
     memoizedSize = size;
     return size;
@@ -116,14 +141,14 @@ public  final class StudentRequest extends
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof com.xxxx.proto.StudentRequest)) {
+    if (!(obj instanceof com.xxxx.proto.StreamRequest)) {
       return super.equals(obj);
     }
-    com.xxxx.proto.StudentRequest other = (com.xxxx.proto.StudentRequest) obj;
+    com.xxxx.proto.StreamRequest other = (com.xxxx.proto.StreamRequest) obj;
 
     boolean result = true;
-    result = result && (getAge()
-        == other.getAge());
+    result = result && getRequestInfo()
+        .equals(other.getRequestInfo());
     return result;
   }
 
@@ -134,65 +159,65 @@ public  final class StudentRequest extends
     }
     int hash = 41;
     hash = (19 * hash) + getDescriptor().hashCode();
-    hash = (37 * hash) + AGE_FIELD_NUMBER;
-    hash = (53 * hash) + getAge();
+    hash = (37 * hash) + REQUEST_INFO_FIELD_NUMBER;
+    hash = (53 * hash) + getRequestInfo().hashCode();
     hash = (29 * hash) + unknownFields.hashCode();
     memoizedHashCode = hash;
     return hash;
   }
 
-  public static com.xxxx.proto.StudentRequest parseFrom(
+  public static com.xxxx.proto.StreamRequest parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.xxxx.proto.StudentRequest parseFrom(
+  public static com.xxxx.proto.StreamRequest parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.xxxx.proto.StudentRequest parseFrom(byte[] data)
+  public static com.xxxx.proto.StreamRequest parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static com.xxxx.proto.StudentRequest parseFrom(
+  public static com.xxxx.proto.StreamRequest parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static com.xxxx.proto.StudentRequest parseFrom(java.io.InputStream input)
+  public static com.xxxx.proto.StreamRequest parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static com.xxxx.proto.StudentRequest parseFrom(
+  public static com.xxxx.proto.StreamRequest parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
-  public static com.xxxx.proto.StudentRequest parseDelimitedFrom(java.io.InputStream input)
+  public static com.xxxx.proto.StreamRequest parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input);
   }
-  public static com.xxxx.proto.StudentRequest parseDelimitedFrom(
+  public static com.xxxx.proto.StreamRequest parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static com.xxxx.proto.StudentRequest parseFrom(
+  public static com.xxxx.proto.StreamRequest parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static com.xxxx.proto.StudentRequest parseFrom(
+  public static com.xxxx.proto.StreamRequest parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -204,7 +229,7 @@ public  final class StudentRequest extends
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(com.xxxx.proto.StudentRequest prototype) {
+  public static Builder newBuilder(com.xxxx.proto.StreamRequest prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   public Builder toBuilder() {
@@ -219,25 +244,25 @@ public  final class StudentRequest extends
     return builder;
   }
   /**
-   * Protobuf type {@code com.xxxx.proto.StudentRequest}
+   * Protobuf type {@code com.xxxx.proto.StreamRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.xxxx.proto.StudentRequest)
-      com.xxxx.proto.StudentRequestOrBuilder {
+      // @@protoc_insertion_point(builder_implements:com.xxxx.proto.StreamRequest)
+      com.xxxx.proto.StreamRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StudentRequest_descriptor;
+      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StreamRequest_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StudentRequest_fieldAccessorTable
+      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StreamRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.xxxx.proto.StudentRequest.class, com.xxxx.proto.StudentRequest.Builder.class);
+              com.xxxx.proto.StreamRequest.class, com.xxxx.proto.StreamRequest.Builder.class);
     }
 
-    // Construct using com.xxxx.proto.StudentRequest.newBuilder()
+    // Construct using com.xxxx.proto.StreamRequest.newBuilder()
     private Builder() {
       maybeForceBuilderInitialization();
     }
@@ -254,31 +279,31 @@ public  final class StudentRequest extends
     }
     public Builder clear() {
       super.clear();
-      age_ = 0;
+      requestInfo_ = "";
 
       return this;
     }
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StudentRequest_descriptor;
+      return com.xxxx.proto.StudentProto.internal_static_com_xxxx_proto_StreamRequest_descriptor;
     }
 
-    public com.xxxx.proto.StudentRequest getDefaultInstanceForType() {
-      return com.xxxx.proto.StudentRequest.getDefaultInstance();
+    public com.xxxx.proto.StreamRequest getDefaultInstanceForType() {
+      return com.xxxx.proto.StreamRequest.getDefaultInstance();
     }
 
-    public com.xxxx.proto.StudentRequest build() {
-      com.xxxx.proto.StudentRequest result = buildPartial();
+    public com.xxxx.proto.StreamRequest build() {
+      com.xxxx.proto.StreamRequest result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
       return result;
     }
 
-    public com.xxxx.proto.StudentRequest buildPartial() {
-      com.xxxx.proto.StudentRequest result = new com.xxxx.proto.StudentRequest(this);
-      result.age_ = age_;
+    public com.xxxx.proto.StreamRequest buildPartial() {
+      com.xxxx.proto.StreamRequest result = new com.xxxx.proto.StreamRequest(this);
+      result.requestInfo_ = requestInfo_;
       onBuilt();
       return result;
     }
@@ -310,18 +335,19 @@ public  final class StudentRequest extends
       return (Builder) super.addRepeatedField(field, value);
     }
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof com.xxxx.proto.StudentRequest) {
-        return mergeFrom((com.xxxx.proto.StudentRequest)other);
+      if (other instanceof com.xxxx.proto.StreamRequest) {
+        return mergeFrom((com.xxxx.proto.StreamRequest)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(com.xxxx.proto.StudentRequest other) {
-      if (other == com.xxxx.proto.StudentRequest.getDefaultInstance()) return this;
-      if (other.getAge() != 0) {
-        setAge(other.getAge());
+    public Builder mergeFrom(com.xxxx.proto.StreamRequest other) {
+      if (other == com.xxxx.proto.StreamRequest.getDefaultInstance()) return this;
+      if (!other.getRequestInfo().isEmpty()) {
+        requestInfo_ = other.requestInfo_;
+        onChanged();
       }
       onChanged();
       return this;
@@ -335,11 +361,11 @@ public  final class StudentRequest extends
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      com.xxxx.proto.StudentRequest parsedMessage = null;
+      com.xxxx.proto.StreamRequest parsedMessage = null;
       try {
         parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (com.xxxx.proto.StudentRequest) e.getUnfinishedMessage();
+        parsedMessage = (com.xxxx.proto.StreamRequest) e.getUnfinishedMessage();
         throw e.unwrapIOException();
       } finally {
         if (parsedMessage != null) {
@@ -349,28 +375,71 @@ public  final class StudentRequest extends
       return this;
     }
 
-    private int age_ ;
+    private java.lang.Object requestInfo_ = "";
     /**
-     * <code>int32 age = 1;</code>
+     * <code>string request_info = 1;</code>
      */
-    public int getAge() {
-      return age_;
+    public java.lang.String getRequestInfo() {
+      java.lang.Object ref = requestInfo_;
+      if (!(ref instanceof java.lang.String)) {
+        com.google.protobuf.ByteString bs =
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        requestInfo_ = s;
+        return s;
+      } else {
+        return (java.lang.String) ref;
+      }
     }
     /**
-     * <code>int32 age = 1;</code>
+     * <code>string request_info = 1;</code>
      */
-    public Builder setAge(int value) {
-      
-      age_ = value;
+    public com.google.protobuf.ByteString
+        getRequestInfoBytes() {
+      java.lang.Object ref = requestInfo_;
+      if (ref instanceof String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        requestInfo_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+    /**
+     * <code>string request_info = 1;</code>
+     */
+    public Builder setRequestInfo(
+        java.lang.String value) {
+      if (value == null) {
+    throw new NullPointerException();
+  }
+  
+      requestInfo_ = value;
       onChanged();
       return this;
     }
     /**
-     * <code>int32 age = 1;</code>
+     * <code>string request_info = 1;</code>
      */
-    public Builder clearAge() {
+    public Builder clearRequestInfo() {
       
-      age_ = 0;
+      requestInfo_ = getDefaultInstance().getRequestInfo();
+      onChanged();
+      return this;
+    }
+    /**
+     * <code>string request_info = 1;</code>
+     */
+    public Builder setRequestInfoBytes(
+        com.google.protobuf.ByteString value) {
+      if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+      
+      requestInfo_ = value;
       onChanged();
       return this;
     }
@@ -385,39 +454,39 @@ public  final class StudentRequest extends
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.xxxx.proto.StudentRequest)
+    // @@protoc_insertion_point(builder_scope:com.xxxx.proto.StreamRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:com.xxxx.proto.StudentRequest)
-  private static final com.xxxx.proto.StudentRequest DEFAULT_INSTANCE;
+  // @@protoc_insertion_point(class_scope:com.xxxx.proto.StreamRequest)
+  private static final com.xxxx.proto.StreamRequest DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new com.xxxx.proto.StudentRequest();
+    DEFAULT_INSTANCE = new com.xxxx.proto.StreamRequest();
   }
 
-  public static com.xxxx.proto.StudentRequest getDefaultInstance() {
+  public static com.xxxx.proto.StreamRequest getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
-  private static final com.google.protobuf.Parser<StudentRequest>
-      PARSER = new com.google.protobuf.AbstractParser<StudentRequest>() {
-    public StudentRequest parsePartialFrom(
+  private static final com.google.protobuf.Parser<StreamRequest>
+      PARSER = new com.google.protobuf.AbstractParser<StreamRequest>() {
+    public StreamRequest parsePartialFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
-        return new StudentRequest(input, extensionRegistry);
+        return new StreamRequest(input, extensionRegistry);
     }
   };
 
-  public static com.google.protobuf.Parser<StudentRequest> parser() {
+  public static com.google.protobuf.Parser<StreamRequest> parser() {
     return PARSER;
   }
 
   @java.lang.Override
-  public com.google.protobuf.Parser<StudentRequest> getParserForType() {
+  public com.google.protobuf.Parser<StreamRequest> getParserForType() {
     return PARSER;
   }
 
-  public com.xxxx.proto.StudentRequest getDefaultInstanceForType() {
+  public com.xxxx.proto.StreamRequest getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 
