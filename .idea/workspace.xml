@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="e8c1481e-1136-41eb-8a5f-17c59541b886" name="Default" comment="" />
+=======
     <list default="true" id="e8c1481e-1136-41eb-8a5f-17c59541b886" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -131,8 +135,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/nio/NioTest13.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="736">
               <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="291">
+              <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+=======
+            <state relative-caret-position="273">
+              <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
+>>>>>>> 553ef8e8683c72272933c4d0cfe6a262bc3c1c71
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,8 +157,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NioTest13_Out.txt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="331">
+              <caret line="81" column="81" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
+=======
             <state relative-caret-position="46">
+<<<<<<< HEAD
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+=======
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
+>>>>>>> 553ef8e8683c72272933c4d0cfe6a262bc3c1c71
             </state>
           </provider>
         </entry>
@@ -460,6 +483,30 @@
       <workItem from="1557456959880" duration="318000" />
       <workItem from="1557457306421" duration="8000" />
       <workItem from="1557462706818" duration="18000" />
+<<<<<<< HEAD
+      <workItem from="1557462850304" duration="10539000" />
+      <workItem from="1557716873448" duration="1450000" />
+      <workItem from="1557795475288" duration="1219000" />
+      <workItem from="1557986346798" duration="2231000" />
+      <workItem from="1557992985963" duration="3968000" />
+      <workItem from="1558000351136" duration="105000" />
+      <workItem from="1558055525356" duration="8492000" />
+      <workItem from="1558330650699" duration="5895000" />
+      <workItem from="1558427474647" duration="1768000" />
+      <workItem from="1558513662053" duration="596000" />
+      <workItem from="1558573617337" duration="1504000" />
+      <workItem from="1558581313592" duration="1004000" />
+      <workItem from="1558603807748" duration="1520000" />
+      <workItem from="1558606161386" duration="92000" />
+      <workItem from="1558659385572" duration="10809000" />
+      <workItem from="1558920200696" duration="13961000" />
+      <workItem from="1559005473814" duration="11924000" />
+      <workItem from="1559093017988" duration="8162000" />
+      <workItem from="1559178371449" duration="5034000" />
+      <workItem from="1559264383714" duration="656000" />
+      <workItem from="1559524303922" duration="598000" />
+      <workItem from="1559631508449" duration="4211000" />
+=======
       <workItem from="1557462850304" duration="10371000" />
       <workItem from="1557536533992" duration="10213000" />
       <workItem from="1557620343919" duration="5557000" />
@@ -485,22 +532,53 @@
       <workItem from="1559357916402" duration="4141000" />
       <workItem from="1559437790806" duration="7260000" />
       <workItem from="1559961142231" duration="1503000" />
+<<<<<<< HEAD
       <workItem from="1560050301622" duration="14811000" />
       <workItem from="1560680472122" duration="857000" />
       <workItem from="1561170613700" duration="4516000" />
       <workItem from="1561290386908" duration="657000" />
+=======
+      <workItem from="1560050301622" duration="14760000" />
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
+>>>>>>> 553ef8e8683c72272933c4d0cfe6a262bc3c1c71
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="117541000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="113160000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+=======
+    <option name="totallyTimeSpent" value="111460000" />
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
+>>>>>>> 553ef8e8683c72272933c4d0cfe6a262bc3c1c71
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27665246" />
+=======
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55609757" visible="true" weight="0.17502668" />
+      <window_info id="Structure" order="1" sideWeight="0.44390243" side_tool="true" weight="0.1652452" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812366" />
+>>>>>>> 553ef8e8683c72272933c4d0cfe6a262bc3c1c71
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -509,7 +587,21 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.3051225" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3148148" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40649498" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32893288" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.3224401" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.28213507" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3398693" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3051225" />
+>>>>>>> 553ef8e8683c72272933c4d0cfe6a262bc3c1c71
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40691194" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,6 +609,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.29287305" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36636972" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32962137" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
@@ -1059,6 +1152,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NioTest13_In.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="46">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
@@ -1068,6 +1162,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12788">
           <caret line="601" column="8" selection-start-line="601" selection-start-column="8" selection-end-line="601" selection-end-column="8" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="291">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+=======
+        <state relative-caret-position="273">
+          <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
+>>>>>>> 553ef8e8683c72272933c4d0cfe6a262bc3c1c71
           <folding>
             <element signature="e#15215#15216#0" expanded="true" />
             <element signature="e#15264#15265#0" expanded="true" />
@@ -1077,8 +1180,18 @@
     </entry>
     <entry file="jar://E:/jdk1.8/src.zip!/java/nio/channels/SelectionKey.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1955">
           <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="331">
+          <caret line="81" column="81" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
+=======
+        <state relative-caret-position="46">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+>>>>>>> 3b8f55782b5e6513b32f4ff6953e94ecf482e2a5
+>>>>>>> 553ef8e8683c72272933c4d0cfe6a262bc3c1c71
         </state>
       </provider>
     </entry>
