@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8c1481e-1136-41eb-8a5f-17c59541b886" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/nio/NioTest12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/nio/NioTest12.java" afterDir="false" />
-    </list>
+    <list default="true" id="e8c1481e-1136-41eb-8a5f-17c59541b886" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -127,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/nio/NioTest11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="291">
+              <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/nio/NioTest12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state relative-caret-position="331">
+              <caret line="81" column="81" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -526,12 +524,12 @@
       <workItem from="1559178371449" duration="5034000" />
       <workItem from="1559264383714" duration="656000" />
       <workItem from="1559524303922" duration="598000" />
-      <workItem from="1559631508449" duration="2736000" />
+      <workItem from="1559631508449" duration="4211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111685000" />
+    <option name="totallyTimeSpent" value="113160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,10 +541,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="936" y="27" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55609757" weight="0.20723684" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55609757" visible="true" weight="0.17502668" />
       <window_info id="Structure" order="1" sideWeight="0.44390243" side_tool="true" weight="0.1652452" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -556,13 +554,13 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3179318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3148148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40649498" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32893288" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.3224401" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.28213507" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.28213507" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3398693" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32893288" />
@@ -999,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/nio/NioTest11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="291">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1009,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxxx/nio/NioTest12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        <state relative-caret-position="331">
+          <caret line="81" column="81" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
         </state>
       </provider>
     </entry>
