@@ -5,6 +5,8 @@ import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.logging.LogLevel;
+import io.netty.handler.logging.LoggingHandler;
 
 /**
  * Hello World
@@ -24,6 +26,7 @@ public class TestServer {
             ServerBootstrap serverBootstrap = new ServerBootstrap();    // 服务端启动
             serverBootstrap.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
+                    .handler(new LoggingHandler(LogLevel.WARN))
                     .childHandler(new TestServerinitializer());
 
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
