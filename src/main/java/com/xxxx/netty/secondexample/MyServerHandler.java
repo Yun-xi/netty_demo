@@ -16,6 +16,16 @@ public class MyServerHandler extends SimpleChannelInboundHandler<String> {
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
         System.out.println(ctx.channel().remoteAddress() + ", " + msg);
         ctx.channel().writeAndFlush("from server: " + UUID.randomUUID());
+
+         ctx.writeAndFlush("from server: " + UUID.randomUUID());
+        /**
+         * ctx.channel().writeAndFlush(Object msg)
+         * ctx.writeAndFlush(Object msg)
+         *
+         * 这俩种方法的区别是:
+         * ctx.channel().writeAndFlush(Object msg)是从ChannelPipeline的末尾开始往前流动
+         * ctx.writeAndFlush(Object msg)是从ChannelPipeline的当前ChannelHandler往前流动
+         */
     }
 
     @Override
