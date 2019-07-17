@@ -14,7 +14,7 @@ repositories {
 
 
 dependencies {
-    compile 'io.netty:netty-all:4.1.10.Final'
+    compile 'io.netty:netty-all:4.1.15.Final'
     compile 'com.google.protobuf:protobuf-java:3.3.1'
     compile 'com.google.protobuf:protobuf-java-util:3.3.1'
     compile 'org.apache.thrift:libthrift:0.10.0'
