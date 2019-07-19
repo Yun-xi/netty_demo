@@ -16,7 +16,7 @@ public class MyClientInitializer extends ChannelInitializer<SocketChannel> {
         ChannelPipeline pipeline = ch.pipeline();
 
         pipeline.addLast(new MyLongToByteEncoder());
-        pipeline.addLast(new MyByteToLongDecoder());
+        pipeline.addLast(new MyByteToLongDecoder2());
         pipeline.addLast(new MyClientHandler());
     }
 }
