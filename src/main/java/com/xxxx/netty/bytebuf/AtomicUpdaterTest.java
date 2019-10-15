@@ -35,7 +35,6 @@ public class AtomicUpdaterTest {
         Person person = new Person();
         AtomicIntegerFieldUpdater<Person> atomicIntegerFieldUpdater =
                 AtomicIntegerFieldUpdater.newUpdater(Person.class, "age");
-
         for (int i = 0; i < 10; ++i) {
             Thread thread = new Thread(() -> {
                 System.out.println(atomicIntegerFieldUpdater.getAndIncrement(person));

@@ -13,7 +13,9 @@ public class WebSocketChannelInitializer extends ChannelInitializer<SocketChanne
     protected void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline pipeline = ch.pipeline();
 
+        // websocket 基于http协议，所以要有http编解码器
         pipeline.addLast(new HttpServerCodec());
+        // 对写大数据流的支持
         pipeline.addLast(new ChunkedWriteHandler());
         // netty对请求采取了分块或分段的方式，客户端向服务端发送了一个请求，请求的长度比如说是1000，以100为一段，那么就分为10段
         // 而HttpObjectAggregator就是把HTTP请求的几块聚合在一起
